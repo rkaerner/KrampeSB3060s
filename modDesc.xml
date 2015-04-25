@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="21">
+    <author>Krampe SB 30-60 by GIANTS altered by Bauer Hannsen</author>
+    <version>1.2</version>
+    <title>
+        <en>Krampe SB 30-60 modified</en>
+        <de>Krampe SB 30-60 modifiziert</de>
+    </title>
+    <description>
+        <en>Krampe SB 30-60 modified</en>
+        <de>Krampe SB 30-60 modfiziert</de>
+    </description>
+    <iconFilename>$data/vehicles/store/store_krampeSB3060.dds</iconFilename>
+    <multiplayer supported="true"/>
+ 
+    <storeItems>
+        <storeItem>
+			<name>Krampe SB 30-60s</name>
+			<specs>
+				<fillTypes>wheat rape maize barley chaff potato sugarBeet silage woodChips grass straw forage manure</fillTypes>
+				<capacity unit="$l10n_unit_liter">60000</capacity>
+			</specs>
+			<functions>
+				<function><![CDATA[Mit einem Kipper/Anhänger können Fruchtarten transportiert werden.]]></function>
+			</functions>
+
+			<rotation>0</rotation>
+            <image active="$data/vehicles/store/store_krampeSB3060.dds" brand="$data/vehicles/store/brand_krampe.dds"/>
+            <price>99660</price>
+            <xmlFilename>KrampeSB3060s.xml</xmlFilename>
+            <dailyUpkeep>122</dailyUpkeep>
+			<category>tippers</category>
+			<brand>$l10n_shopItemBrand_krampe</brand>
+        </storeItem>
+    </storeItems>    
+</modDesc>
